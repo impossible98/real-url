@@ -1,5 +1,6 @@
 import sys
 
+import huya.mod
 
 def website():
     website = input("Enter website: ")
@@ -7,7 +8,8 @@ def website():
     if website.startswith("https://www.douyu.com/"):
         print("https://www.douyu.com/4044733")
     elif website.startswith("https://www.huya.com/"):
-        print("https://www.huya.com/ruozhi")
+        # Example: https://www.huya.com/ruozhi
+        huya.mod.main(website)
     else:
         print("Invalid website")
 

@@ -1,8 +1,8 @@
-from cmd import mod
+import cmd.mod
 
 
 def main():
-    mod.main()
+    cmd.mod.main()
 
 
 if __name__ == "__main__":
