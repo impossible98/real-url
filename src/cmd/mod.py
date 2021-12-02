@@ -1,12 +1,14 @@
 import sys
 
+import douyu.mod
 import huya.mod
 
 def website():
     website = input("Enter website: ")
 
     if website.startswith("https://www.douyu.com/"):
-        print("https://www.douyu.com/4044733")
+        # Example: https://www.douyu.com/4044733
+        douyu.mod.main(website)
     elif website.startswith("https://www.huya.com/"):
         # Example: https://www.huya.com/ruozhi
         huya.mod.main(website)
